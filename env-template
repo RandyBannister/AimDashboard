@@ -1,0 +1,34 @@
+#production settings
+APP_DEBUG=false
+MARMONIM_API_CLIENT_ID = 6
+MARMONIM_API_CLIENT_SECRET = "wYuD3r9WGI3kRWojsNVBuoq0s1OZtScxvUFSsVoO"
+APP_KEY=base64:DBkBdNKAeFWVAvcy+Baqh4y7Q30craRXwCdDbttd6z4=
+MARMONIM_API_END_POINT = "https://dev.marmonim.com/api/v2/"
+
+# Cornelius mail Configuration
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.office365.com
+MAIL_PORT=587
+MAIL_USERNAME=Nuvola.Admin@cornelius.com
+MAIL_PASSWORD=Green#433
+MAIL_ENCRYPTION=tls
+MAIL_FROM=Nuvola.Admin@cornelius.com
+MAIL_FROM_NAME='Marmon IM Enterprise Support'
+
+NOCAPTCHA_SECRET=6LdnSD8UAAAAAPk041vNcRxHOdLpfsnjhml8QnDL
+NOCAPTCHA_SITEKEY=6LdnSD8UAAAAAFRgZ7yCn08ZYEWPc1P76MvG42eP
+
+# Send the exceptions to dev/prod support team
+REPORT_EXCEPTION = true
+EXCEPTION_SUPPORT_EMAIL_TO = "vineesh.chuvatta@cornelius.com, michal.augustyniak@cornelius.com, ranganatha.rajappa@cornelius.com"
+EXCEPTION_SUPPORT_EMAIL_TITLE = "Dashboard - Whoops, looks like something went wrong."
+
+#max login attempts
+LOGIN_ATTEMPTS = 3
+#login lockout time in minutes
+LOCKOUT_TIME = 0
+
+# manufacturer table tokens
+TOKEN_SKU = '04d34f4204f86aaa4d2867de5889e0f67cb2a5e01c8063e550ef1d33a75eb008'
+TOKEN_PRODUCTS = '0225da7df58d6905b4eec4bfe161dcee1e09337ac9ac2edf53da1bf4803e6a0c'
+TOKEN_CUSTOMERS = 'ad24fc6b8da4f19e5b34f89946dafbfaa78032c4debdb6910bb46dfd329066a4'
